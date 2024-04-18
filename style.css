@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2", cursive;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 67%,
+    rgba(255, 196, 56, 1) 37%
+  );
+}
+
+.header {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-transform: uppercase;
+  height: 80px;
+  font-weight: 800;
+  /* border: 1px solid red; */
+  margin: 0px 20px;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 50%;
+}
+
+.menu ul {
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-items: center; */
+  justify-content: center;
+  /* margin: 0; */
+  /* border: 1px solid red; */
+  list-style: none;
+}
+
+.menu li {
+  margin: auto;
+}
+
+.menu li a {
+  color: #000;
+}
+
+.menu-button {
+  background: #00a950;
+  margin: auto;
+}
+
+.menu-button .btn {
+  color: #fff;
+}
+
+.btn span {
+  margin-left: 15px;
+  /* border: 1px solid red; */
+}
+
+.contact {
+  margin-right: 40px;
+}
+
+.local {
+  background-color: #fff;
+}
+
+.local select {
+  outline: none;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu-button,
+.local {
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+.menu-button a,
+.menu a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  margin-top: 70px;
+  border: 1px solid red;
+  /* width: 1000px; */
+}
+
+.sticker h2 {
+  color: #fff;
+  font-size: 16px;
+  background: #ef4416;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+.title h1 {
+  margin-top: 10px;
+  font-size: 88px;
+  font-weight: 800;
+  line-height: 70px;
+  /* border: 1px solid red; */
+}
+
+.spicy {
+  margin-top: 10px;
+  display: flex;
+}
+
+.spicy img {
+  width: 24px;
+}
+
+.spicy span {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #ef4416;
+  font-weight: 800;
+}
+
+.content p {
+  margin-top: 30px;
+  max-width: 380px;
+  font-size: 14px;
+  color: rgb(164, 163, 163);
+}
+
+.ingredients {
+  margin-top: 40px;
+}
+
+.ingredients ul {
+  display: flex;
+  align-items: center;
+  /* flex-direction: row; */
+  list-style: none;
+}
+
+.ingredients h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(164, 163, 163);
+}
+
+.ingredients img {
+  width: 36px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.ingredients span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 100%;
+  color: #fff;
+  background-color: #00a950;
+  font-weight: 700;
+}
+
+.order {
+  display: flex;
+  margin-top: 50px;
+}
+
+.order .btn-3 {
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.order h2 {
+  color: #00a950;
+  font-size: 36px;
+  margin-left: 40px;
+  font-weight: 800;
+}
+
+.order span {
+  color: #99cc5d;
+  margin-left: 10px;
+}
+
+.right {
+  width: 60%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: baseline;
+}
+
+.img1 img {
+  height: 500px;
+  /* width: 500px; */
+  /* border: 1px solid red; */
+  margin-right: 10px;
+}
+
+.img2 img {
+  height: 300px;
+  margin-bottom: 0;
+  /* width: 500px; */
+  filter: blur(2px);
+  /* border: 1px solid red; */
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin: 0 120px;
+  margin-top: 50px;
+  border: 1px solid red;
+}
+
+.others {
+  width: 60%;
+  /* border: 1px solid red; */
+  cursor: pointer;
+}
+
+.others img {
+  width: 100px;
+  /* height: 100px; */
+  opacity: 0.6;
+  margin: 0 5px;
+}
+
+.navbar {
+  width: 400px;
+}
+
+.navbar ul {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.navbar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 100%;
+  color: #000;
+  background-color: rgba(255, 196, 56, 1);
+  margin: auto;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.navbar li:last-child {
+  /* border: 1px solid slategray; */
+  background-color: #fff;
+}
+
+.table {
+  margin: auto;
+  margin-right: 0;
+}
+
+.table h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+@media (width<=431px) {
+  body {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 58%,
+    rgba(255, 196, 56, 1) 37%
+  );
+  height: 100%;
+  width: 100%;
+}
+
+  .header {
+    margin: 0 1%;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .menu {
+    width: 0;
+    visibility: hidden;
+  }
+
+  .btn {
+    display: flex;
+  }
+
+  .contact {
+    text-align: center;
+    margin: 0 2%;
+  }
+
+  .main {
+    margin: 5% 2%;
+    border: none;
+  }
+
+  .sticker h2 {
+    font-size: 12px;
+    border-radius: 5px;
+    width: 40px;
+  }
+
+  .title h1 {
+    margin: 5px 0;
+    font-size: 55px;
+    line-height: 50px;
+  }
+
+  .spicy {
+    margin: 5px 0;
+    /* display: flex; */
+  }
+
+  .spicy img {
+    width: 18px;
+  }
+
+  .spicy span {
+    font-size: 12px;
+  }
+
+  .content p {
+    margin: 15px 0;
+    max-width: 220px;
+    font-size: 12px;
+  }
+
+  .ingredients {
+    margin: 5px 0;
+  }
+
+  .ingredients h3 {
+    font-size: 14px;
+  }
+
+  .ingredients img {
+    width: 26px;
+    margin: 5px 5px 0 0;
+  }
+
+  .ingredients span {
+    width: 30px;
+    height: 30px;
+  }
+
+  .order {
+    margin: 10px 0;
+    width: auto;
+    border: none;
+  }
+
+  .order .btn-3 {
+    width: 150px;
+    font-size: 15px;
+    border: none;
+  }
+
+  .order h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: -40px;
+    padding-left: 5%;
+    border: none;
+  }
+
+  .order span {
+    margin: 0;
+    visibility: hidden;
+  }
+
+  .left {
+    border: none;
+  }
+
+  .right {
+    border: none;
+  }
+
+  .img1 img {
+    margin-left: -50px;
+  }
+
+  .img2 img {
+    visibility: hidden;
+  }
+
+  .footer {
+    margin: 3% 2%;
+    border: none;
+  }
+
+  .others {
+    display: flex;
+    width: 40%;
+    border: none;
+  }
+
+  .others img {
+    width: 80px;
+  }
+
+  .others img:last-child {
+    visibility: hidden;
+  }
+
+  .table h2 {
+    font-size: 14px;
+  }
+}
